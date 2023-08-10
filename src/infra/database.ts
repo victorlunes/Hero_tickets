@@ -7,6 +7,6 @@ export async function connect() {
     );
     console.log("Connect database success");
   } catch (error) {
-    console.log("Error connecting to the database");
-  }
+    console.log("🚀 ~ file: database.ts:10 ~ connect ~ error:", error);
+  };
 }
