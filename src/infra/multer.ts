@@ -13,9 +13,9 @@ const upload = multer({
       const fileName = `${crypto.randomBytes(20).toString("hex")}${
         file.originalname
       }`;
-      callback(null, fileName)
+      callback(null, fileName);
     },
   }),
 });
 
-export { upload }
+export { upload };

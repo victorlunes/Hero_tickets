@@ -1,6 +1,4 @@
 class Location {
-  constructor(public latitude: string, public longitude: string ){
-    
-  }
+  constructor(public latitude: string, public longitude: string) {}
 }
-export { Location }
+export { Location };

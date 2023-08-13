@@ -193,8 +193,8 @@ const config: Config = {
   // Whether to use watchman for file crawling
   // watchman: true,
   preset:'ts-jest',
-  maxWorkers: '100',
-  testMatch: ['**/tests/**/*.test.ts']
+  maxWorkers: '100%',
+  testMatch: ['**/tests/**/*.test.ts'],
 };
 
 export default config;
